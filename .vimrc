@@ -34,6 +34,7 @@ set mouse=a  " Enable mouse drag on window splits
 set background=dark " dark or light
 
 let python_highlight_all = 1
+
 """"""""""
 " Download plug-ins to the ~/.vim/plugged/ directory
 call plug#begin()
@@ -47,6 +48,7 @@ Plug 'preservim/nerdtree'
 Plug 'https://github.com/vim-python/python-syntax'
 
 call plug#end()
+""""""""""
 
 colorscheme hybrid
 
